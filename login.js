@@ -45,7 +45,7 @@ document.getElementById("loginSubmit").addEventListener('click', async function(
         document.getElementById("loginPassword").value = "";
 
         // Redirect to main page after successful login
-        window.location.href = "main/main-page.html";
+        window.location.href = "https://percy3013.github.io/MainPage";
 
         // Perform any additional actions after successful login if needed
     } catch (error) {
