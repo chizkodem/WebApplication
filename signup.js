@@ -40,6 +40,12 @@ document.getElementById("submit").addEventListener('click', async function(e) {
         return;
     }
 
+    // Check if the password has at least 6 characters
+    if (password.length < 6) {
+        alert("Password must be at least 6 characters long.");
+        return;
+    }
+        
     try {
         const emailExists = await checkIfEmailExists(email);
 
